@@ -1,0 +1,205 @@
+body {
+    margin: 0px;
+    font-family: Arial,sens-serif;
+}
+
+#leftBar, header{
+  background-color: darkcyan;
+}
+
+main, footer, #rightbar{
+   background-color: ghostwhite;
+}
+
+#leftBar {
+	position:fixed;
+	height: 100%;
+	width:15%;
+	margin: 0px;
+  color: white;
+}
+
+div.sidebar{
+  margin-top: 110px;
+  padding: 10px;
+}
+
+div.sidebar a {
+  padding: inherit;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/* On mouse-over */
+div.sidebar a:hover, .dropdown-btn:hover {
+  color: cyan;
+}
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.dropdown-btn {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+
+
+i{
+    color: #ff9c1a;
+}
+
+#rightBar {
+	width: 85%;
+	float: right;
+  background-color: ghostwhite;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 200px;
+
+}
+
+
+div.titoli{
+  position: relative;
+  left: -135px;
+  text-align: center;
+  color: ghostwhite;
+}
+
+div.menu{
+  display: flex;
+  flex-flow: row;
+  color: ghostwhite;
+}
+
+div.menu a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#homeLink{
+  order: 1;
+  flex: 0 1 25%;
+  padding-top: 30px;
+}
+
+.pulsante{
+  order: 3;
+  flex: 0 1 25%;
+  padding-top: 5px;
+}
+
+.ricerca{
+  order: 2;
+  flex: 0 1 50%;
+  align-self: center;
+}
+
+div.menu a:hover {
+  color: cyan;
+}
+
+div.titoli h1{
+  font-family:"Lucida Handwriting", cursive;
+  font-size:33px;
+}
+
+div.menu input[type = text]{
+  padding: 6px;
+  width: 60%;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.contenuti{
+	margin-top: 200px;
+	display:flex;
+	flex-flow: column;
+}
+
+p.intro {
+  border-style: none;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+p.intro:first-letter{
+  color: darkcyan;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+main {
+  height: 100px;
+  order: 1;
+  flex: 1 1 80%;
+  padding: 20px;
+}
+
+footer {
+  height: 100px;
+  order: 2;
+  flex: 1 1 20%;
+  padding: 20px;
+}
+
+main, footer {
+  border-top: solid darkcyan;
+  border-bottom: solid darkcyan;
+}

@@ -1,0 +1,99 @@
+body{
+  background-image: url("media/logo.png");
+  background-repeat: space;
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial,sans-serif;
+  }
+
+header{
+  text-align: center;
+}
+
+div.menu{
+  margin-bottom: 20px;
+  margin-top: 235px;
+  font-size: 25px;
+}
+
+form{
+  width: 500px;
+  background-color: ghostwhite;
+  border: 10px groove grey;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+#registrazione{
+  display: none;
+}
+
+#registrati,#Reimposta{
+  color: darkcyan;
+  text-decoration: none;
+}
+
+
+.text{
+  margin-left: 15px;
+}
+
+#indietro{
+  color: darkcyan;
+  text-decoration: none;
+}
+
+#registrazione button{
+  margin-top: 28px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input{
+  display: block;
+  border:2px solid grey;
+  width:90%;
+  padding:10px;
+  margin:5px auto;
+  border-radius: 5px;
+}
+
+label{
+  padding:10px;
+  margin-left: 5px;
+}
+
+button{
+    float: right;
+    background: #00555;
+    padding: 10px 15px;
+    color: grey;
+    border-radius: 5px;
+    margin-right: 13px;
+    border: solid grey;
+    margin-top: 18px;
+}
+
+button:hover{
+  opacity: .8;
+}
+
+.errore{
+  margin-top: 150px;
+  font-size: 35px;
+}
+
+#homeLink, .qui ,#ritorno{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, .qui:hover, #ritorno:hover, #registrati:hover, #indietro:hover, #homeLink:hover, #Reimposta:hover{
+  color: cyan;
+}

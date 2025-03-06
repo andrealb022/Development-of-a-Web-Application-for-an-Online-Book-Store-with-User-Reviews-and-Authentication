@@ -1,0 +1,53 @@
+.MenuDX{
+  text-align: center;
+}
+
+#datipersonali div{
+  border-style: solid;
+}
+
+h3{
+  margin-left: 3px;
+}
+
+p{
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+footer p{
+  font-size: inherit;
+}
+
+#mierecensioni{
+  grid-template-columns: 15% 35% 15% 35%;
+  grid-auto-rows: auto;
+  grid-row-gap: 50px;
+}
+
+#RecTit{
+  margin-left: 400px;
+  font-size: 50px;
+  color: darkcyan;
+}
+
+input[type="button"]{
+
+   background-color: white;
+   cursor: pointer;
+
+}
+
+form{
+  width: 500px;
+  background-color: ghostwhite;
+  border: 10px groove grey;
+  border-radius: 15px;
+  padding: 30px;
+  font-family: Arial,sans-serif;
+}
+
+.errore{
+  margin-top: 150px;
+  font-size: 35px;
+}

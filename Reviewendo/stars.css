@@ -1,0 +1,32 @@
+/* Import Google font - Poppins */
+
+
+.rating-box {
+
+  padding: 1px 25px 1px; /*boh*/
+  border-radius: 5px;  /*per curvare i bordi*/
+  margin-left: 35px;
+}
+
+
+.rating-box .stars {
+
+  align-items: center;
+  gap: 25px;   /*distanza stelline*/
+}
+
+ul li{
+     display: inline-block;
+}
+
+
+/*stelline quando non clicco*/
+.stars i {
+  color: #e6e6e6;
+  font-size: 25px;
+  cursor: pointer;  /*per far uscire la manina*/
+}
+/*stelline*/
+.stars i.active {
+  color: #ff9c1a;
+}
